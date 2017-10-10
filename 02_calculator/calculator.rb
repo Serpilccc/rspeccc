@@ -8,18 +8,22 @@ def substract(a,b)
     c=a-b
     return c
 
-def sum(array) 
+def sum(d)
    c=0
-    array.each do |a|
+    d.each do |a|
         c+=a
     end
     return c
 end
     
-def multiply(a,b)
-    c=a*b
+def multiply(d)
+    c=1
+    d.each do |a|
+        c *= a
+    end
     return c
-end
+    end
+
     
 def power(a,b)
     c=a**b
