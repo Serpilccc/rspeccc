@@ -7,6 +7,7 @@ end
 def substract(a,b)
     c=a-b
     return c
+end
 
 def sum(d)
    c=0
@@ -30,3 +31,10 @@ def power(a,b)
     return c
 end
     
+def factorial(a)
+    c=1
+    for i in 1..a
+        c=c*i
+    end 
+    return c
+end
